@@ -18,7 +18,7 @@ public class Ejercicio7 {
 
         System.out.println("\nBuscando Puntos de Silla...");
         for (int i = 0; i < filas; i++) {
-            // 1. Encontrar el valor mínimo de la fila 'i'
+
             double minFila = matriz[i][0];
             int colDelMin = 0;
 
@@ -29,7 +29,7 @@ public class Ejercicio7 {
                 }
             }
 
-            // 2. Verificar si ese mínimo es el máximo de su respectiva columna
+
             boolean esPuntoSilla = true;
             for (int k = 0; k < filas; k++) {
                 if (matriz[k][colDelMin] > minFila) {
@@ -38,7 +38,7 @@ public class Ejercicio7 {
                 }
             }
 
-            // 3. Imprimir el resultado si cumple las condiciones
+
             if (esPuntoSilla) {
                 System.out.println("> ¡Punto de silla encontrado! Valor: " + minFila +
                         " en la posición Fila " + i + ", Columna " + colDelMin);
