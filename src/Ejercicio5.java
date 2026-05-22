@@ -14,7 +14,7 @@ public class Ejercicio5 {
         }
 
         System.out.println("\n--- Contenido de la Matriz con Filas Invertidas ---");
-        for (int i = 2; i >= 0; i--) { // Empieza desde la última fila
+        for (int i = 2; i >= 0; i--) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(articulos[i][j] + "\t| ");
             }
